@@ -7,5 +7,9 @@
     <orderEntry type="jdk" jdkName="Python 3.10 (pucrs_visualizacao_dados_2022)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="anychart-base" level="application" />
+    <orderEntry type="library" name="chart.js" level="application" />
+    <orderEntry type="library" name="feather-icons" level="application" />
+    <orderEntry type="library" name="d3" level="application" />
+    <orderEntry type="library" name="plotly-2.12.1" level="application" />
   </component>
 </module>

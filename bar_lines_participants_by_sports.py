@@ -11,12 +11,19 @@ def process_sport(sport, season, year):
     if len(temp['Name'].unique()) == 0:
         return None
     return {
+        'Sport': sport,
         'Participants': len(temp['Name'].unique()),
         'Participants_M': len(temp[df['Sex'] == 'M']['Name'].unique()),
         'Participants_F': len(temp[df['Sex'] == 'F']['Name'].unique()),
         'GoldMedals': temp[df['Medal'] == 'Gold']['Medal'].count(),
         'SilverMedals': temp[df['Medal'] == 'Silver']['Medal'].count(),
         'BronzeMedals': temp[df['Medal'] == 'Bronze']['Medal'].count(),
+        'GoldMedals_M': temp[df['Sex'] == 'M'][df['Medal'] == 'Gold']['Medal'].count(),
+        'SilverMedals_M': temp[df['Sex'] == 'M'][df['Medal'] == 'Silver']['Medal'].count(),
+        'BronzeMedals_M': temp[df['Sex'] == 'M'][df['Medal'] == 'Bronze']['Medal'].count(),
+        'GoldMedals_F': temp[df['Sex'] == 'F'][df['Medal'] == 'Gold']['Medal'].count(),
+        'SilverMedals_F': temp[df['Sex'] == 'F'][df['Medal'] == 'Silver']['Medal'].count(),
+        'BronzeMedals_F': temp[df['Sex'] == 'F'][df['Medal'] == 'Bronze']['Medal'].count(),
     }
 
 
