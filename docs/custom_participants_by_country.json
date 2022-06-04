@@ -1,0 +1,1184 @@
+{
+  "1992": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 6660,
+        "AvgAge": 24.992093075793516,
+        "AvgHeight": 146.21563311871682,
+        "AvgWeight": 24.992093075793516,
+        "GoldMedals": 362,
+        "SilverMedals": 359,
+        "BronzeMedals": 399
+      },
+      {
+        "Sex": "F",
+        "Participants": 2721,
+        "AvgAge": 22.86251212415131,
+        "AvgHeight": 133.1903491755577,
+        "AvgWeight": 22.86251212415131,
+        "GoldMedals": 197,
+        "SilverMedals": 190,
+        "BronzeMedals": 205
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 1313,
+        "AvgAge": 24.431570109151973,
+        "AvgHeight": 143.86439966414778,
+        "AvgWeight": 24.431570109151973,
+        "GoldMedals": 71,
+        "SilverMedals": 74,
+        "BronzeMedals": 74
+      },
+      {
+        "Sex": "F",
+        "Participants": 488,
+        "AvgAge": 23.092979127134726,
+        "AvgHeight": 138.32163187855787,
+        "AvgWeight": 23.092979127134726,
+        "GoldMedals": 33,
+        "SilverMedals": 34,
+        "BronzeMedals": 32
+      }
+    ]
+  },
+  "2012": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 5858,
+        "AvgAge": 26.615904292751583,
+        "AvgHeight": 178.87262491203379,
+        "AvgWeight": 26.615904292751583,
+        "GoldMedals": 331,
+        "SilverMedals": 327,
+        "BronzeMedals": 365
+      },
+      {
+        "Sex": "F",
+        "Participants": 4646,
+        "AvgAge": 25.16165090283749,
+        "AvgHeight": 167.98091143594152,
+        "AvgWeight": 25.16165090283749,
+        "GoldMedals": 301,
+        "SilverMedals": 303,
+        "BronzeMedals": 314
+      }
+    ]
+  },
+  "1920": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 2597,
+        "AvgAge": 23.566137566137566,
+        "AvgHeight": 31.602693602693602,
+        "AvgWeight": 23.566137566137566,
+        "GoldMedals": 478,
+        "SilverMedals": 433,
+        "BronzeMedals": 353
+      },
+      {
+        "Sex": "F",
+        "Participants": 78,
+        "AvgAge": 22.223880597014926,
+        "AvgHeight": 25.35820895522388,
+        "AvgWeight": 22.223880597014926,
+        "GoldMedals": 15,
+        "SilverMedals": 15,
+        "BronzeMedals": 14
+      }
+    ]
+  },
+  "1900": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 1197,
+        "AvgAge": 17.10877561744614,
+        "AvgHeight": 10.767209668943773,
+        "AvgWeight": 17.10877561744614,
+        "GoldMedals": 197,
+        "SilverMedals": 224,
+        "BronzeMedals": 170
+      },
+      {
+        "Sex": "F",
+        "Participants": 23,
+        "AvgAge": 21.666666666666668,
+        "AvgHeight": 0.0,
+        "AvgWeight": 21.666666666666668,
+        "GoldMedals": 4,
+        "SilverMedals": 4,
+        "BronzeMedals": 5
+      }
+    ]
+  },
+  "1988": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 6242,
+        "AvgAge": 24.564280668707323,
+        "AvgHeight": 173.29138215210736,
+        "AvgWeight": 24.564280668707323,
+        "GoldMedals": 342,
+        "SilverMedals": 328,
+        "BronzeMedals": 358
+      },
+      {
+        "Sex": "F",
+        "Participants": 2202,
+        "AvgAge": 22.374259102455547,
+        "AvgHeight": 165.6491673722834,
+        "AvgWeight": 22.374259102455547,
+        "GoldMedals": 178,
+        "SilverMedals": 185,
+        "BronzeMedals": 191
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 1110,
+        "AvgAge": 24.26901480347116,
+        "AvgHeight": 138.36957631444614,
+        "AvgWeight": 24.26901480347116,
+        "GoldMedals": 66,
+        "SilverMedals": 67,
+        "BronzeMedals": 67
+      },
+      {
+        "Sex": "F",
+        "Participants": 315,
+        "AvgAge": 22.466176470588234,
+        "AvgHeight": 125.54264705882353,
+        "AvgWeight": 22.466176470588234,
+        "GoldMedals": 21,
+        "SilverMedals": 21,
+        "BronzeMedals": 21
+      }
+    ]
+  },
+  "1994": {
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 1216,
+        "AvgAge": 24.912895377128955,
+        "AvgHeight": 170.1868613138686,
+        "AvgWeight": 24.912895377128955,
+        "GoldMedals": 74,
+        "SilverMedals": 73,
+        "BronzeMedals": 76
+      },
+      {
+        "Sex": "F",
+        "Participants": 522,
+        "AvgAge": 23.465158371040722,
+        "AvgHeight": 154.7927601809955,
+        "AvgWeight": 23.465158371040722,
+        "GoldMedals": 36,
+        "SilverMedals": 36,
+        "BronzeMedals": 36
+      }
+    ]
+  },
+  "1932": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 1721,
+        "AvgAge": 30.386727688787186,
+        "AvgHeight": 61.10831426392067,
+        "AvgWeight": 30.386727688787186,
+        "GoldMedals": 209,
+        "SilverMedals": 192,
+        "BronzeMedals": 184
+      },
+      {
+        "Sex": "F",
+        "Participants": 201,
+        "AvgAge": 27.014409221902017,
+        "AvgHeight": 49.30835734870317,
+        "AvgWeight": 27.014409221902017,
+        "GoldMedals": 20,
+        "SilverMedals": 22,
+        "BronzeMedals": 20
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 231,
+        "AvgAge": 24.033333333333335,
+        "AvgHeight": 98.63333333333334,
+        "AvgWeight": 24.033333333333335,
+        "GoldMedals": 30,
+        "SilverMedals": 30,
+        "BronzeMedals": 26
+      },
+      {
+        "Sex": "F",
+        "Participants": 21,
+        "AvgAge": 21.545454545454547,
+        "AvgHeight": 65.63636363636364,
+        "AvgWeight": 21.545454545454547,
+        "GoldMedals": 2,
+        "SilverMedals": 2,
+        "BronzeMedals": 2
+      }
+    ]
+  },
+  "2002": {
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 1512,
+        "AvgAge": 26.409180846853978,
+        "AvgHeight": 178.86228729719033,
+        "AvgWeight": 26.409180846853978,
+        "GoldMedals": 92,
+        "SilverMedals": 89,
+        "BronzeMedals": 89
+      },
+      {
+        "Sex": "F",
+        "Participants": 885,
+        "AvgAge": 25.128950695322377,
+        "AvgHeight": 164.8552465233881,
+        "AvgWeight": 25.128950695322377,
+        "GoldMedals": 70,
+        "SilverMedals": 68,
+        "BronzeMedals": 70
+      }
+    ]
+  },
+  "1952": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 4410,
+        "AvgAge": 26.05580983316108,
+        "AvgHeight": 42.647718883803336,
+        "AvgWeight": 26.05580983316108,
+        "GoldMedals": 259,
+        "SilverMedals": 244,
+        "BronzeMedals": 254
+      },
+      {
+        "Sex": "F",
+        "Participants": 521,
+        "AvgAge": 22.318637274549097,
+        "AvgHeight": 44.17635270541082,
+        "AvgWeight": 22.318637274549097,
+        "GoldMedals": 47,
+        "SilverMedals": 47,
+        "BronzeMedals": 46
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 585,
+        "AvgAge": 26.015503875968992,
+        "AvgHeight": 24.707641196013288,
+        "AvgWeight": 26.015503875968992,
+        "GoldMedals": 39,
+        "SilverMedals": 38,
+        "BronzeMedals": 41
+      },
+      {
+        "Sex": "F",
+        "Participants": 109,
+        "AvgAge": 22.67027027027027,
+        "AvgHeight": 20.10810810810811,
+        "AvgWeight": 22.67027027027027,
+        "GoldMedals": 6,
+        "SilverMedals": 6,
+        "BronzeMedals": 6
+      }
+    ]
+  },
+  "1980": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 4129,
+        "AvgAge": 23.859797608095676,
+        "AvgHeight": 171.86182152713891,
+        "AvgWeight": 23.859797608095676,
+        "GoldMedals": 312,
+        "SilverMedals": 313,
+        "BronzeMedals": 325
+      },
+      {
+        "Sex": "F",
+        "Participants": 1123,
+        "AvgAge": 20.712414578587698,
+        "AvgHeight": 164.30637813211845,
+        "AvgWeight": 20.712414578587698,
+        "GoldMedals": 145,
+        "SilverMedals": 145,
+        "BronzeMedals": 144
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 836,
+        "AvgAge": 24.288753799392097,
+        "AvgHeight": 140.74772036474164,
+        "AvgWeight": 24.288753799392097,
+        "GoldMedals": 55,
+        "SilverMedals": 56,
+        "BronzeMedals": 56
+      },
+      {
+        "Sex": "F",
+        "Participants": 235,
+        "AvgAge": 21.665116279069768,
+        "AvgHeight": 134.10232558139535,
+        "AvgWeight": 21.665116279069768,
+        "GoldMedals": 17,
+        "SilverMedals": 17,
+        "BronzeMedals": 17
+      }
+    ]
+  },
+  "2000": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 6576,
+        "AvgAge": 26.03051251489869,
+        "AvgHeight": 178.98104886769966,
+        "AvgWeight": 26.03051251489869,
+        "GoldMedals": 375,
+        "SilverMedals": 368,
+        "BronzeMedals": 381
+      },
+      {
+        "Sex": "F",
+        "Participants": 4064,
+        "AvgAge": 24.478549070152827,
+        "AvgHeight": 167.63505800036825,
+        "AvgWeight": 24.478549070152827,
+        "GoldMedals": 288,
+        "SilverMedals": 293,
+        "BronzeMedals": 299
+      }
+    ]
+  },
+  "1996": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 6814,
+        "AvgAge": 25.617077063383494,
+        "AvgHeight": 156.68228454172367,
+        "AvgWeight": 25.617077063383494,
+        "GoldMedals": 353,
+        "SilverMedals": 352,
+        "BronzeMedals": 373
+      },
+      {
+        "Sex": "F",
+        "Participants": 3512,
+        "AvgAge": 23.645567092651756,
+        "AvgHeight": 143.83346645367413,
+        "AvgWeight": 23.645567092651756,
+        "GoldMedals": 255,
+        "SilverMedals": 253,
+        "BronzeMedals": 256
+      }
+    ]
+  },
+  "1912": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 2356,
+        "AvgAge": 26.56539337212244,
+        "AvgHeight": 32.365292183152036,
+        "AvgWeight": 26.56539337212244,
+        "GoldMedals": 316,
+        "SilverMedals": 305,
+        "BronzeMedals": 290
+      },
+      {
+        "Sex": "F",
+        "Participants": 53,
+        "AvgAge": 22.379310344827587,
+        "AvgHeight": 0.0,
+        "AvgWeight": 22.379310344827587,
+        "GoldMedals": 10,
+        "SilverMedals": 10,
+        "BronzeMedals": 10
+      }
+    ]
+  },
+  "1924": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 3100,
+        "AvgAge": 22.647424333533774,
+        "AvgHeight": 30.109440769693325,
+        "AvgWeight": 22.647424333533774,
+        "GoldMedals": 262,
+        "SilverMedals": 265,
+        "BronzeMedals": 259
+      },
+      {
+        "Sex": "F",
+        "Participants": 156,
+        "AvgAge": 20.57377049180328,
+        "AvgHeight": 19.96311475409836,
+        "AvgWeight": 20.57377049180328,
+        "GoldMedals": 15,
+        "SilverMedals": 16,
+        "BronzeMedals": 15
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 300,
+        "AvgAge": 24.173814898419863,
+        "AvgHeight": 33.13092550790068,
+        "AvgWeight": 24.173814898419863,
+        "GoldMedals": 53,
+        "SilverMedals": 36,
+        "BronzeMedals": 35
+      },
+      {
+        "Sex": "F",
+        "Participants": 13,
+        "AvgAge": 24.11764705882353,
+        "AvgHeight": 38.23529411764706,
+        "AvgWeight": 24.11764705882353,
+        "GoldMedals": 2,
+        "SilverMedals": 2,
+        "BronzeMedals": 2
+      }
+    ]
+  },
+  "2014": {
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 1642,
+        "AvgAge": 26.447698744769873,
+        "AvgHeight": 179.38179916317992,
+        "AvgWeight": 26.447698744769873,
+        "GoldMedals": 111,
+        "SilverMedals": 110,
+        "BronzeMedals": 111
+      },
+      {
+        "Sex": "F",
+        "Participants": 1102,
+        "AvgAge": 25.33465150766189,
+        "AvgHeight": 166.6164112703905,
+        "AvgWeight": 25.33465150766189,
+        "GoldMedals": 91,
+        "SilverMedals": 87,
+        "BronzeMedals": 87
+      }
+    ]
+  },
+  "1948": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 3956,
+        "AvgAge": 23.99948069932491,
+        "AvgHeight": 28.478102821533668,
+        "AvgWeight": 23.99948069932491,
+        "GoldMedals": 256,
+        "SilverMedals": 251,
+        "BronzeMedals": 244
+      },
+      {
+        "Sex": "F",
+        "Participants": 446,
+        "AvgAge": 23.418789808917197,
+        "AvgHeight": 34.14331210191083,
+        "AvgWeight": 23.418789808917197,
+        "GoldMedals": 33,
+        "SilverMedals": 33,
+        "BronzeMedals": 35
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 591,
+        "AvgAge": 26.60828025477707,
+        "AvgHeight": 18.225053078556265,
+        "AvgWeight": 26.60828025477707,
+        "GoldMedals": 36,
+        "SilverMedals": 43,
+        "BronzeMedals": 41
+      },
+      {
+        "Sex": "F",
+        "Participants": 77,
+        "AvgAge": 22.834586466165412,
+        "AvgHeight": 21.18796992481203,
+        "AvgWeight": 22.834586466165412,
+        "GoldMedals": 5,
+        "SilverMedals": 5,
+        "BronzeMedals": 5
+      }
+    ]
+  },
+  "1998": {
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 1390,
+        "AvgAge": 25.645204862674472,
+        "AvgHeight": 175.27420081044573,
+        "AvgWeight": 25.645204862674472,
+        "GoldMedals": 82,
+        "SilverMedals": 82,
+        "BronzeMedals": 87
+      },
+      {
+        "Sex": "F",
+        "Participants": 788,
+        "AvgAge": 24.353323699421967,
+        "AvgHeight": 162.8735549132948,
+        "AvgWeight": 24.353323699421967,
+        "GoldMedals": 63,
+        "SilverMedals": 63,
+        "BronzeMedals": 63
+      }
+    ]
+  },
+  "2006": {
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 1539,
+        "AvgAge": 26.473523809523808,
+        "AvgHeight": 179.43428571428572,
+        "AvgWeight": 26.473523809523808,
+        "GoldMedals": 99,
+        "SilverMedals": 98,
+        "BronzeMedals": 98
+      },
+      {
+        "Sex": "F",
+        "Participants": 955,
+        "AvgAge": 25.19066590779738,
+        "AvgHeight": 166.83892999430847,
+        "AvgWeight": 25.19066590779738,
+        "GoldMedals": 77,
+        "SilverMedals": 77,
+        "BronzeMedals": 77
+      }
+    ]
+  },
+  "2008": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 6284,
+        "AvgAge": 26.375160544567173,
+        "AvgHeight": 178.78602620087335,
+        "AvgWeight": 26.375160544567173,
+        "GoldMedals": 365,
+        "SilverMedals": 360,
+        "BronzeMedals": 391
+      },
+      {
+        "Sex": "F",
+        "Participants": 4603,
+        "AvgAge": 24.867090784044017,
+        "AvgHeight": 168.1889614855571,
+        "AvgWeight": 24.867090784044017,
+        "GoldMedals": 306,
+        "SilverMedals": 307,
+        "BronzeMedals": 319
+      }
+    ]
+  },
+  "2016": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 6143,
+        "AvgAge": 26.737307434695243,
+        "AvgHeight": 178.89698593436034,
+        "AvgWeight": 26.737307434695243,
+        "GoldMedals": 347,
+        "SilverMedals": 335,
+        "BronzeMedals": 372
+      },
+      {
+        "Sex": "F",
+        "Participants": 5031,
+        "AvgAge": 25.572874819219027,
+        "AvgHeight": 167.62156516149767,
+        "AvgWeight": 25.572874819219027,
+        "GoldMedals": 318,
+        "SilverMedals": 320,
+        "BronzeMedals": 331
+      }
+    ]
+  },
+  "2004": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 6252,
+        "AvgAge": 26.242497150816767,
+        "AvgHeight": 180.2956819045207,
+        "AvgWeight": 26.242497150816767,
+        "GoldMedals": 366,
+        "SilverMedals": 361,
+        "BronzeMedals": 376
+      },
+      {
+        "Sex": "F",
+        "Participants": 4288,
+        "AvgAge": 24.780923187883158,
+        "AvgHeight": 168.67526144969347,
+        "AvgWeight": 24.780923187883158,
+        "GoldMedals": 298,
+        "SilverMedals": 299,
+        "BronzeMedals": 301
+      }
+    ]
+  },
+  "1960": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 4735,
+        "AvgAge": 25.247905445840814,
+        "AvgHeight": 166.90873728306403,
+        "AvgWeight": 25.247905445840814,
+        "GoldMedals": 253,
+        "SilverMedals": 241,
+        "BronzeMedals": 261
+      },
+      {
+        "Sex": "F",
+        "Participants": 613,
+        "AvgAge": 21.78048780487805,
+        "AvgHeight": 157.11289198606272,
+        "AvgWeight": 21.78048780487805,
+        "GoldMedals": 56,
+        "SilverMedals": 53,
+        "BronzeMedals": 47
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 521,
+        "AvgAge": 24.811205846528622,
+        "AvgHeight": 83.47015834348356,
+        "AvgWeight": 24.811205846528622,
+        "GoldMedals": 37,
+        "SilverMedals": 35,
+        "BronzeMedals": 36
+      },
+      {
+        "Sex": "F",
+        "Participants": 144,
+        "AvgAge": 22.0,
+        "AvgHeight": 77.8542372881356,
+        "AvgWeight": 22.0,
+        "GoldMedals": 13,
+        "SilverMedals": 13,
+        "BronzeMedals": 13
+      }
+    ]
+  },
+  "1964": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 4454,
+        "AvgAge": 25.60182562165565,
+        "AvgHeight": 168.79524708844824,
+        "AvgWeight": 25.60182562165565,
+        "GoldMedals": 276,
+        "SilverMedals": 270,
+        "BronzeMedals": 283
+      },
+      {
+        "Sex": "F",
+        "Participants": 680,
+        "AvgAge": 21.736646884272997,
+        "AvgHeight": 161.71958456973294,
+        "AvgWeight": 21.736646884272997,
+        "GoldMedals": 71,
+        "SilverMedals": 69,
+        "BronzeMedals": 60
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 894,
+        "AvgAge": 24.713973799126638,
+        "AvgHeight": 133.16957787481806,
+        "AvgWeight": 24.713973799126638,
+        "GoldMedals": 46,
+        "SilverMedals": 49,
+        "BronzeMedals": 45
+      },
+      {
+        "Sex": "F",
+        "Participants": 200,
+        "AvgAge": 22.633663366336634,
+        "AvgHeight": 130.3861386138614,
+        "AvgWeight": 22.633663366336634,
+        "GoldMedals": 15,
+        "SilverMedals": 18,
+        "BronzeMedals": 13
+      }
+    ]
+  },
+  "1984": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 5224,
+        "AvgAge": 24.069216497787927,
+        "AvgHeight": 168.77950620807763,
+        "AvgWeight": 24.069216497787927,
+        "GoldMedals": 327,
+        "SilverMedals": 317,
+        "BronzeMedals": 338
+      },
+      {
+        "Sex": "F",
+        "Participants": 1567,
+        "AvgAge": 21.80179812014712,
+        "AvgHeight": 164.74948917041274,
+        "AvgWeight": 21.80179812014712,
+        "GoldMedals": 170,
+        "SilverMedals": 160,
+        "BronzeMedals": 164
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 995,
+        "AvgAge": 23.67584480600751,
+        "AvgHeight": 163.75281602002502,
+        "AvgWeight": 23.67584480600751,
+        "GoldMedals": 56,
+        "SilverMedals": 56,
+        "BronzeMedals": 56
+      },
+      {
+        "Sex": "F",
+        "Participants": 277,
+        "AvgAge": 22.26865671641791,
+        "AvgHeight": 152.49440298507463,
+        "AvgWeight": 22.26865671641791,
+        "GoldMedals": 18,
+        "SilverMedals": 18,
+        "BronzeMedals": 18
+      }
+    ]
+  },
+  "1968": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 4769,
+        "AvgAge": 24.884598443694024,
+        "AvgHeight": 174.28351196593746,
+        "AvgWeight": 24.884598443694024,
+        "GoldMedals": 284,
+        "SilverMedals": 270,
+        "BronzeMedals": 288
+      },
+      {
+        "Sex": "F",
+        "Participants": 783,
+        "AvgAge": 20.491277433877322,
+        "AvgHeight": 164.0292628024761,
+        "AvgWeight": 20.491277433877322,
+        "GoldMedals": 75,
+        "SilverMedals": 70,
+        "BronzeMedals": 70
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 949,
+        "AvgAge": 24.503050847457626,
+        "AvgHeight": 169.97694915254237,
+        "AvgWeight": 24.503050847457626,
+        "GoldMedals": 51,
+        "SilverMedals": 53,
+        "BronzeMedals": 49
+      },
+      {
+        "Sex": "F",
+        "Participants": 211,
+        "AvgAge": 22.091346153846153,
+        "AvgHeight": 160.875,
+        "AvgWeight": 22.091346153846153,
+        "GoldMedals": 15,
+        "SilverMedals": 17,
+        "BronzeMedals": 14
+      }
+    ]
+  },
+  "1972": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 6045,
+        "AvgAge": 25.10380964122796,
+        "AvgHeight": 172.68968068055727,
+        "AvgWeight": 25.10380964122796,
+        "GoldMedals": 317,
+        "SilverMedals": 308,
+        "BronzeMedals": 340
+      },
+      {
+        "Sex": "F",
+        "Participants": 1060,
+        "AvgAge": 20.487916096671228,
+        "AvgHeight": 159.5608755129959,
+        "AvgWeight": 20.487916096671228,
+        "GoldMedals": 87,
+        "SilverMedals": 84,
+        "BronzeMedals": 79
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 802,
+        "AvgAge": 24.78467741935484,
+        "AvgHeight": 174.58629032258065,
+        "AvgWeight": 24.78467741935484,
+        "GoldMedals": 55,
+        "SilverMedals": 48,
+        "BronzeMedals": 51
+      },
+      {
+        "Sex": "F",
+        "Participants": 206,
+        "AvgAge": 21.910843373493975,
+        "AvgHeight": 163.83855421686746,
+        "AvgWeight": 21.910843373493975,
+        "GoldMedals": 15,
+        "SilverMedals": 15,
+        "BronzeMedals": 15
+      }
+    ]
+  },
+  "1936": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 4121,
+        "AvgAge": 27.388870486916197,
+        "AvgHeight": 28.050182179529646,
+        "AvgWeight": 27.388870486916197,
+        "GoldMedals": 283,
+        "SilverMedals": 281,
+        "BronzeMedals": 265
+      },
+      {
+        "Sex": "F",
+        "Participants": 361,
+        "AvgAge": 22.16025641025641,
+        "AvgHeight": 35.48717948717949,
+        "AvgWeight": 22.16025641025641,
+        "GoldMedals": 29,
+        "SilverMedals": 29,
+        "BronzeMedals": 30
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 588,
+        "AvgAge": 24.933660933660935,
+        "AvgHeight": 27.27886977886978,
+        "AvgWeight": 24.933660933660935,
+        "GoldMedals": 33,
+        "SilverMedals": 34,
+        "BronzeMedals": 32
+      },
+      {
+        "Sex": "F",
+        "Participants": 80,
+        "AvgAge": 22.80246913580247,
+        "AvgHeight": 15.839506172839506,
+        "AvgWeight": 22.80246913580247,
+        "GoldMedals": 3,
+        "SilverMedals": 3,
+        "BronzeMedals": 3
+      }
+    ]
+  },
+  "1956": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 2962,
+        "AvgAge": 23.251771374586678,
+        "AvgHeight": 77.88686820973075,
+        "AvgWeight": 23.251771374586678,
+        "GoldMedals": 257,
+        "SilverMedals": 243,
+        "BronzeMedals": 249
+      },
+      {
+        "Sex": "F",
+        "Participants": 384,
+        "AvgAge": 21.352743561030234,
+        "AvgHeight": 87.35498320268756,
+        "AvgWeight": 21.352743561030234,
+        "GoldMedals": 45,
+        "SilverMedals": 50,
+        "BronzeMedals": 49
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 689,
+        "AvgAge": 25.58152686145146,
+        "AvgHeight": 47.37134778510839,
+        "AvgWeight": 25.58152686145146,
+        "GoldMedals": 42,
+        "SilverMedals": 40,
+        "BronzeMedals": 41
+      },
+      {
+        "Sex": "F",
+        "Participants": 132,
+        "AvgAge": 22.817073170731707,
+        "AvgHeight": 36.8130081300813,
+        "AvgWeight": 22.817073170731707,
+        "GoldMedals": 9,
+        "SilverMedals": 9,
+        "BronzeMedals": 9
+      }
+    ]
+  },
+  "1928": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 2934,
+        "AvgAge": 24.660636442894507,
+        "AvgHeight": 29.9590235396687,
+        "AvgWeight": 24.660636442894507,
+        "GoldMedals": 213,
+        "SilverMedals": 207,
+        "BronzeMedals": 217
+      },
+      {
+        "Sex": "F",
+        "Participants": 312,
+        "AvgAge": 19.844059405940595,
+        "AvgHeight": 29.965346534653467,
+        "AvgWeight": 19.844059405940595,
+        "GoldMedals": 32,
+        "SilverMedals": 32,
+        "BronzeMedals": 33
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 433,
+        "AvgAge": 22.48633879781421,
+        "AvgHeight": 36.29326047358834,
+        "AvgWeight": 22.48633879781421,
+        "GoldMedals": 28,
+        "SilverMedals": 26,
+        "BronzeMedals": 29
+      },
+      {
+        "Sex": "F",
+        "Participants": 28,
+        "AvgAge": 22.21212121212121,
+        "AvgHeight": 39.39393939393939,
+        "AvgWeight": 22.21212121212121,
+        "GoldMedals": 2,
+        "SilverMedals": 2,
+        "BronzeMedals": 2
+      }
+    ]
+  },
+  "1976": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 4810,
+        "AvgAge": 24.786674911114545,
+        "AvgHeight": 168.45633019013758,
+        "AvgWeight": 24.786674911114545,
+        "GoldMedals": 307,
+        "SilverMedals": 304,
+        "BronzeMedals": 320
+      },
+      {
+        "Sex": "F",
+        "Participants": 1260,
+        "AvgAge": 20.664825046040516,
+        "AvgHeight": 165.84990791896868,
+        "AvgWeight": 20.664825046040516,
+        "GoldMedals": 131,
+        "SilverMedals": 130,
+        "BronzeMedals": 128
+      }
+    ],
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 896,
+        "AvgAge": 24.314646110721792,
+        "AvgHeight": 126.04905395935529,
+        "AvgWeight": 24.314646110721792,
+        "GoldMedals": 53,
+        "SilverMedals": 54,
+        "BronzeMedals": 53
+      },
+      {
+        "Sex": "F",
+        "Participants": 231,
+        "AvgAge": 21.246543778801843,
+        "AvgHeight": 124.2926267281106,
+        "AvgWeight": 21.246543778801843,
+        "GoldMedals": 17,
+        "SilverMedals": 17,
+        "BronzeMedals": 17
+      }
+    ]
+  },
+  "2010": {
+    "Winter": [
+      {
+        "Sex": "M",
+        "Participants": 1503,
+        "AvgAge": 26.71976516634051,
+        "AvgHeight": 180.29158512720156,
+        "AvgWeight": 26.71976516634051,
+        "GoldMedals": 97,
+        "SilverMedals": 98,
+        "BronzeMedals": 96
+      },
+      {
+        "Sex": "F",
+        "Participants": 1032,
+        "AvgAge": 25.30048727666486,
+        "AvgHeight": 167.29561451001624,
+        "AvgWeight": 25.30048727666486,
+        "GoldMedals": 77,
+        "SilverMedals": 77,
+        "BronzeMedals": 75
+      }
+    ]
+  },
+  "1906": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 835,
+        "AvgAge": 15.54006968641115,
+        "AvgHeight": 26.596399535423927,
+        "AvgWeight": 15.54006968641115,
+        "GoldMedals": 155,
+        "SilverMedals": 154,
+        "BronzeMedals": 143
+      },
+      {
+        "Sex": "F",
+        "Participants": 6,
+        "AvgAge": 8.545454545454545,
+        "AvgHeight": 0.0,
+        "AvgWeight": 8.545454545454545,
+        "GoldMedals": 2,
+        "SilverMedals": 2,
+        "BronzeMedals": 2
+      }
+    ]
+  },
+  "1904": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 644,
+        "AvgAge": 20.8295719844358,
+        "AvgHeight": 29.13852140077821,
+        "AvgWeight": 20.8295719844358,
+        "GoldMedals": 167,
+        "SilverMedals": 161,
+        "BronzeMedals": 148
+      },
+      {
+        "Sex": "F",
+        "Participants": 6,
+        "AvgAge": 40.8125,
+        "AvgHeight": 0.0,
+        "AvgWeight": 40.8125,
+        "GoldMedals": 6,
+        "SilverMedals": 2,
+        "BronzeMedals": 2
+      }
+    ]
+  },
+  "1908": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 1980,
+        "AvgAge": 21.221021611001966,
+        "AvgHeight": 27.613948919449903,
+        "AvgWeight": 21.221021611001966,
+        "GoldMedals": 288,
+        "SilverMedals": 276,
+        "BronzeMedals": 251
+      },
+      {
+        "Sex": "F",
+        "Participants": 44,
+        "AvgAge": 28.127659574468087,
+        "AvgHeight": 0.0,
+        "AvgWeight": 28.127659574468087,
+        "GoldMedals": 6,
+        "SilverMedals": 5,
+        "BronzeMedals": 5
+      }
+    ]
+  },
+  "1896": {
+    "Summer": [
+      {
+        "Sex": "M",
+        "Participants": 176,
+        "AvgAge": 13.465789473684211,
+        "AvgHeight": 20.910526315789475,
+        "AvgWeight": 13.465789473684211,
+        "GoldMedals": 62,
+        "SilverMedals": 43,
+        "BronzeMedals": 38
+      }
+    ]
+  }
+}

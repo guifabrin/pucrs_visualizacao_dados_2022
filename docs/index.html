@@ -12,7 +12,169 @@
         main {
             min-height: calc(100vh - 34px);
         }
+
+        .gauge-wrapper {
+            display: inline-block;
+            width: auto;
+            margin: 0 auto;
+            padding: 20px 15px 15px;
+        }
+
+        .gauge {
+            background: #e7e7e7;
+            box-shadow: 0 -3px 6px 2px rgba(0, 0, 0, 0.50);
+            width: 200px;
+            height: 100px;
+            border-radius: 100px 100px 0 0 !important;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .gauge.min-scaled {
+            transform: scale(0.5);
+        }
+
+        .gauge-center {
+            content: '';
+            color: #fff;
+            width: 60%;
+            height: 60%;
+            background: #15222E;
+            border-radius: 100px 100px 0 0 !important;
+            position: absolute;
+            box-shadow: 0 -13px 15px -10px rgba(0, 0, 0, 0.28);
+            right: 21%;
+            bottom: 0;
+            z-index: 10;
+        }
+
+        .gauge-center .label, .gauge-center .number {
+            display: block;
+            width: 100%;
+            text-align: center;
+            border: 0 !important;
+        }
+
+        .gauge-center .label {
+            font-size: 0.75em;
+            opacity: 0.6;
+            margin: 1.1em 0 0.3em 0;
+        }
+
+        .gauge-center .number {
+            font-size: 1.2em;
+        }
+
+        .needle {
+            width: 80px;
+            height: 7px;
+            background: #15222E;
+            border-bottom-left-radius: 100% !important;
+            border-bottom-right-radius: 5px !important;
+            border-top-left-radius: 100% !important;
+            border-top-right-radius: 5px !important;
+            position: absolute;
+            bottom: -2px;
+            left: 20px;
+            transform-origin: 100% 4px;
+            transform: rotate(0deg);
+            box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.38);
+            z-index: 9;
+        }
+
+        .slice-colors {
+            height: 100%;
+        }
+
+        .slice-colors .st {
+            position: absolute;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border: 50px solid transparent;
+        }
+
+        .four .slice-colors .st.slice-item:nth-child(2) {
+            border-top: 50px #f1c40f solid;
+            border-right: 50px #f1c40f solid;
+            background-color: #1eaa59;
+        }
+
+        .four .slice-colors .st.slice-item:nth-child(4) {
+            left: 50%;
+            border-bottom: 50px #E84C3D solid;
+            border-right: 50px #E84C3D solid;
+            background-color: #e67e22;
+        }
+
+        .persona {
+            display: flex;
+            flex-direction: column;
+            position: relative
+        }
+
+        .persona .height, .persona .age, .persona .medal {
+            position: absolute;
+            width: 100%;
+            display: flex;
+        }
+
+        .persona .medal {
+            width: 70px !important;
+            flex-direction: column;
+            height: 100px;
+            top: 15%;
+            text-align: center;
+        }
+
+        .persona .medal img {
+            width: 50px !important;
+        }
+
+        .persona .gold-medal {
+            left: 0 !important;
+        }
+
+        .persona .silver-medal {
+            left: 10% !important;
+        }
+
+        .persona .bronze-medal {
+            left: 20% !important;
+        }
+
+        .persona .height {
+            bottom: 0;
+            width: 50%;
+            left: 30%;
+        }
+
+        .persona .age {
+            top: 10%;
+        }
+
+        .persona .height hr {
+            color: red;
+            flex: 1;
+            height: 3px;
+            margin-right: 10px;
+        }
+
+        .persona h2 {
+            margin: auto;
+            margin-bottom: 30px;
+        }
+
+        .persona img {
+            height: 300px;
+            margin: auto;
+        }
+
+        .persona#Man img {
+            width: 100px;
+        }
     </style>
+    <title>PUCRS - Data visualization - 2022</title>
 </head>
 
 <body>
@@ -26,8 +188,8 @@
             <div class="position-sticky pt-3">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#" onclick="showMain('#bar_lines')">
-                            Bar and Lines - Physical Characteristics
+                        <a class="nav-link active" aria-current="page" href="#" onclick="showMain('#custom_view')">
+                            Custom - Physical Characteristics
                         </a>
                     </li>
                     <li class="nav-item">
@@ -40,9 +202,105 @@
         </nav>
 
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-            <div class="main" id="bar_lines">
-                <iframe src="average_physical_characteristics_by_year_line_bars.html" frameborder="0" scrolling="no"
-                        style="width:100%; height:100%;"></iframe>
+            <div class="main" id="custom_view">
+                <h1>Custom visualization</h1>
+                <hr>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="yearsCustom">Years</label>
+                            <select id="yearsCustom" class="form-control"
+                                    onchange="changeSeasons(this, seasonsCustomEl, dataCustom)"></select>
+                        </div>
+                        <div class="form-group col-md-5">
+                            <label for="seasonsCustom">Season</label>
+                            <select id="seasonsCustom" class="form-control" onchange="filterAllCustom()"></select>
+                        </div>
+                        <div class="form-group col-md-1">
+                            <label>Animation</label>
+                            <button class="btn btn-primary" onclick="changeYearAuto(0, yearsCustomEl)">Play </button>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 persona" id='Man'>
+                            <h2>Man physical characteristics and Medals</h2>
+                            <div class="height">
+                                <hr/>
+                                <span></span>
+                            </div>
+                            <div class="age">
+                            </div>
+                            <div class="medal gold-medal">
+                                <img src="./images/gold-medal.svg" alt="Gold Medal"/>
+                                <span></span>
+                            </div>
+                            <div class="medal silver-medal">
+                                <img src="./images/silver-medal.svg" alt="Silver Medal"/>
+                                <span></span>
+                            </div>
+                            <div class="medal bronze-medal">
+                                <img src="./images/bronze-medal.svg" alt="Bronze Medal"/>
+                                <span></span>
+                            </div>
+                            <img class="persona" src="./images/man/age-0.png" alt="Man image"/>
+                            <div class="gauge-wrapper">
+                                <div class="gauge four rischio3">
+                                    <div class="slice-colors">
+                                        <div class="st slice-item"></div>
+                                        <div class="st slice-item"></div>
+                                        <div class="st slice-item"></div>
+                                        <div class="st slice-item"></div>
+                                    </div>
+                                    <div class="needle"></div>
+                                    <div class="gauge-center">
+                                        <div class="label">Avg Weigth</div>
+                                        <div class="number"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 persona" id='Woman'>
+                            <h2>Woman physical characteristics and Medals</h2>
+                            <div class="height">
+                                <hr/>
+                                <span></span>
+                            </div>
+                            <div class="age">
+                            </div>
+                            <div class="medal gold-medal">
+                                <img src="./images/gold-medal.svg" alt="Gold Medal"/>
+                                <span></span>
+                            </div>
+                            <div class="medal silver-medal">
+                                <img src="./images/silver-medal.svg" alt="Silver Medal"/>
+                                <span></span>
+                            </div>
+                            <div class="medal bronze-medal">
+                                <img src="./images/bronze-medal.svg" alt="Bronze Medal"/>
+                                <span></span>
+                            </div>
+                            <img class="persona" src="./images/woman/age-0.png" alt="Woman image"/>
+                            <div class="gauge-wrapper">
+                                <div class="gauge four rischio3">
+                                    <div class="slice-colors">
+                                        <div class="st slice-item"></div>
+                                        <div class="st slice-item"></div>
+                                        <div class="st slice-item"></div>
+                                        <div class="st slice-item"></div>
+                                    </div>
+                                    <div class="needle"></div>
+                                    <div class="gauge-center">
+                                        <div class="label">Avg Weigth</div>
+                                        <div class="number"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="main" id="choropleth">
                 <h1>Choropleth visualization</h1>
@@ -51,11 +309,17 @@
                     <div class="row">
                         <div class="form-group col-md-6">
                             <label>Years</label>
-                            <select id="years" class="form-control" onchange="changeSeasons()"></select>
+                            <select id="yearsChoropleth" class="form-control"
+                                    onchange="changeSeasons(this, seasonsChoroplethEl, dataChoropleth)"></select>
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-md-5">
                             <label>Season</label>
-                            <select id="seasons" class="form-control" onchange="filterAll()"></select>
+                            <select id="seasonsChoropleth" class="form-control"
+                                    onchange="filterAllChoropleth()"></select>
+                        </div>
+                        <div class="form-group col-md-1">
+                            <label>Animation</label>
+                            <button class="btn btn-primary" onclick="changeYearAuto(0, yearsChoroplethEl)">Play </button>
                         </div>
                     </div>
                     <div class="row">
@@ -64,9 +328,9 @@
                         <div class="col-md-4" id='Participants_F'></div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4" id='GoldMedals'></div>
-                        <div class="col-md-4" id='SilverMedals'></div>
-                        <div class="col-md-4" id='BronzeMedals'></div>
+                        <div class="col-md-4" id='GoldMedalsChoropleth'></div>
+                        <div class="col-md-4" id='SilverMedalsChoropleth'></div>
+                        <div class="col-md-4" id='BronzeMedalsChoropleth'></div>
                     </div>
                 </div>
             </div>
@@ -75,27 +339,44 @@
 </div>
 
 <script>
-    let data = null
-    const yearsEl = document.querySelector('#years')
-    const seasonsEl = document.querySelector('#seasons')
+    let dataChoropleth = null
+    let dataCustom = null
 
-    fetch('./choropleth_participants_by_country.json').then((response) => response.json()).then(obj => {
-        data = obj
-        const years = Object.keys(obj)
-        for (const year of years.sort()) {
-            const option = document.createElement('option')
-            option.value = year
-            option.innerText = year
-            yearsEl.append(option)
-        }
-        yearsEl.onchange()
+    const yearsChoroplethEl = document.querySelector('#yearsChoropleth')
+    const seasonsChoroplethEl = document.querySelector('#seasonsChoropleth')
+
+    const yearsCustomEl = document.querySelector('#yearsCustom')
+    const seasonsCustomEl = document.querySelector('#seasonsCustom')
+
+    const elWoman = document.querySelector('#Woman')
+    const elMan = document.querySelector('#Man')
+
+    function doFetch(url, yearsEl, callback) {
+        fetch(url).then((response) => response.json()).then(obj => {
+            callback(obj)
+            const years = Object.keys(obj)
+            for (const year of years.sort()) {
+                const option = document.createElement('option')
+                option.value = year
+                option.innerText = year
+                yearsEl.append(option)
+            }
+            yearsEl.onchange()
+        })
+    }
+
+    doFetch('./choropleth_participants_by_country.json', yearsChoroplethEl, (data) => {
+        dataChoropleth = data
+    })
+    doFetch('./custom_participants_by_country.json', yearsCustomEl, (data) => {
+        dataCustom = data
     })
 
-    function changeSeasons() {
+    function changeSeasons(selfEl, seasonsEl, data) {
         while (seasonsEl.children.length) {
             seasonsEl.removeChild(seasonsEl.children[0])
         }
-        for (const season of Object.keys(data[yearsEl.value])) {
+        for (const season of Object.keys(data[selfEl.value])) {
             const option = document.createElement('option')
             option.value = season
             option.innerText = season
@@ -104,25 +385,31 @@
         seasonsEl.onchange()
     }
 
-    function filterAll() {
-        filter('Participants')
-        filter('Participants_M', 'Male Participants')
-        filter('Participants_F', 'Female Participants')
-        filter('GoldMedals', 'Gold Medals')
-        filter('SilverMedals', 'Silver Medals')
-        filter('BronzeMedals', 'Bronze Medals')
+    function filterAllChoropleth() {
+        filterChoropleth('Participants')
+        filterChoropleth('Participants_M', 'Male Participants')
+        filterChoropleth('Participants_F', 'Female Participants')
+        filterChoropleth('GoldMedals', 'Gold Medals', 'GoldMedalsChoropleth')
+        filterChoropleth('SilverMedals', 'Silver Medals', 'SilverMedalsChoropleth')
+        filterChoropleth('BronzeMedals', 'Bronze Medals', 'BronzeMedalsChoropleth')
     }
 
-    function filter(type = 'Participants', title = null) {
+    function filterChoropleth(type = 'Participants', title = null, id = null) {
         if (!title) {
             title = type
         }
-        const year = yearsEl.value
-        const season = seasonsEl.value
-        Plotly.newPlot(type, [{
+        if (!id) {
+            id = type
+        }
+        const year = yearsChoroplethEl.value
+        const season = seasonsChoroplethEl.value
+        if (!year || !season) {
+            return
+        }
+        Plotly.newPlot(id, [{
             type: 'choropleth',
-            locations: data[year][season].map(item => item.NOC),
-            z: data[year][season].map(item => item[type]),
+            locations: dataChoropleth[year][season].map(item => item.NOC),
+            z: dataChoropleth[year][season].map(item => item[type]),
             autocolorscale: true
         }], {
             title: `${title} of ${year} - ${season}`,
@@ -133,20 +420,69 @@
             }
         }, {showLink: false});
     }
-</script>
 
+    function filterAllCustom() {
+        const items = dataCustom[yearsCustomEl.value][seasonsCustomEl.value]
+        const male = items.find(item => item.Sex == 'M')
+        const female = items.find(item => item.Sex == 'F')
+        if (male) {
+            elMan.style.display = ''
+            elMan.querySelector('.number').innerText = male.AvgWeight.toFixed(2) + ' lbs'
+            elMan.querySelector('.needle').style.transform = `rotate(${male.AvgWeight.toFixed(2) * 2}deg)`
+            elMan.querySelector('.height').style.bottom = ((male.AvgHeight / 3 + 25).toFixed(0)) + '%'
+            elMan.querySelector('.height span').innerText = '  Avg Height: ' + (male.AvgHeight).toFixed(0) + ' cm'
+            elMan.querySelector('img.persona').src = `./images/man/age-${Math.ceil(male.AvgAge / 100 / 7 * 100)}.png`
+            elMan.querySelector('.age').innerText = `Avg age: ${Math.ceil(male.AvgAge)} years`
+            elMan.querySelector('.gold-medal span').innerText = male.GoldMedals
+            elMan.querySelector('.silver-medal span').innerText = male.SilverMedals
+            elMan.querySelector('.bronze-medal span').innerText = male.BronzeMedals
+            const max = Math.max.apply(null, [male.GoldMedals, male.SilverMedals, male.BronzeMedals])
+            elMan.querySelector('.gold-medal').style.top = (115 - male.GoldMedals * 100 / max) + '%'
+            elMan.querySelector('.silver-medal').style.top = (115 - male.SilverMedals * 100 / max) + '%'
+            elMan.querySelector('.bronze-medal').style.top = (115 - male.BronzeMedals * 100 / max) + '%'
+        } else {
+            elMan.style.display = 'none'
+        }
+        if (female) {
+            elWoman.style.display = ''
+            elWoman.querySelector('.number').innerText = female.AvgWeight.toFixed(2) + ' lbs'
+            elWoman.querySelector('.needle').style.transform = `rotate(${female.AvgWeight.toFixed(2) * 2}deg)`
+            elWoman.querySelector('.height').style.bottom = ((female.AvgHeight / 3 + 25).toFixed(0)) + '%'
+            elWoman.querySelector('.height span').innerText = '  Avg Height: ' + (female.AvgHeight).toFixed(0) + ' cm'
+            elWoman.querySelector('img.persona').src = `./images/woman/age-${Math.ceil(female.AvgAge / 100 / 7 * 100)}.png`
+            elWoman.querySelector('.age').innerText = `Avg age: ${Math.ceil(female.AvgAge)} years`
+            elWoman.querySelector('.gold-medal span').innerText = female.GoldMedals
+            elWoman.querySelector('.silver-medal span').innerText = female.SilverMedals
+            elWoman.querySelector('.bronze-medal span').innerText = female.BronzeMedals
+            const max = Math.max.apply(null, [female.GoldMedals, female.SilverMedals, female.BronzeMedals])
+            elWoman.querySelector('.gold-medal').style.top = (115 - female.GoldMedals * 100 / max) + '%'
+            elWoman.querySelector('.silver-medal').style.top = (115 - female.SilverMedals * 100 / max) + '%'
+            elWoman.querySelector('.bronze-medal').style.top = (115 - female.BronzeMedals * 100 / max) + '%'
+        } else {
+            elWoman.style.display = 'none'
+        }
+    }
 
-<script>
     function showMain(selector) {
         [...document.querySelectorAll('.main')].forEach((item) => {
             item.style.display = 'none'
         })
         document.querySelector(selector).style.display = ''
 
-        filterAll()
+        filterAllChoropleth()
     }
 
-    showMain('#bar_lines')
+    showMain('#custom_view')
+
+    function changeYearAuto(index, yearsEl){
+        if (yearsEl.children[index]){
+            yearsEl.value = yearsEl.children[index].value
+            yearsEl.onchange()
+            setTimeout(()=>{
+                changeYearAuto(index+1, yearsEl)
+            }, 500)
+        }
+    }
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"
